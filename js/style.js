@@ -23,4 +23,10 @@ $(function(){
 	jQuery("#slideTxtBox1").slide();
 
 
+
+	$('.teacher-block-more-link').click(function(){
+		$(this).next('.teacher-block-more').slideToggle();
+	});
+
+
 })
